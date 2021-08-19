@@ -144,7 +144,7 @@ function printHeader($on_page)
         <div id="sub-body">
           <menu id="global-menu">
             <li id="global-menu-logo">
-                <h1><a href="/"><img src="/assets/img/cedar-logo.png" alt="Miiverse" width="120" height="30"></a></h1></li>
+                <h1><a href="/"><img src="/assets/img/menu-logo.png" alt="Discoverse" width="120" height="30"></a></h1></li>
     <?php
 
 
@@ -163,7 +163,7 @@ function printHeader($on_page)
                         <span class="icon-container<?= ($user['user_level'] > 1 ? ' verified' : '') ?>">
                             <img src="<?= printFace($user['user_face'], 0) ?>" alt="User Page">
                         </span>
-                        <span>User Page</span>
+                        <span>My Profile</span>
                     </a>
                 </li>
                 <li id="global-menu-feed"<?= ($on_page == 2 ? ' class="selected"' : '') ?>>
@@ -574,9 +574,9 @@ function printReply($reply)
         echo 'id="'. $reply['reply_id'] .'" data-track-label="reply"><span class="yeah-button-text">';
 
         if (!empty($_SESSION['signed_in']) && checkYeahAdded($reply['reply_id'], 'reply', $_SESSION['user_id'])) {
-            echo 'Unyeah';
+            echo 'Unyeah..';
         } else {
-            echo 'Yeah!';
+            echo 'Yeah!!';
         }
 
         echo '</span></button>';
