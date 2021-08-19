@@ -21,12 +21,14 @@ $tabTitle = 'Discoverse - Community List';
                 <span class="title">Get the latest news here!</span>
                 <span class="text">Posts from Verified Users</span>
             </a>
-        </div>
-        <iframe src="https://discordapp.com/widget?id=406561770359226378&theme=<?php echo (isset($_COOKIE['dark-mode']) ? 'dark' : 'light'); ?>" style="width: inherit;" height="500" allowtransparency="true" frameborder="0"></iframe>
+        </div
         <div class="post-list-outline" style="text-align: center">
             <h2 class="label">What is Discoverse ?</h2>
             <p style="width: 90%; display: inine-block; padding: 10px;">Discoverse is a Miiverse clone created by Bakayun. Haruki it's the co-owner now.</p>
         </div>
+	    <h2 class="label">Discoverse is dead no ? More, Extraverse is better recreate Extraverse !
+		    <p style="width: 90%; display: inine-block; padding: 10px;">I'm sorry but Discoverse is funny lol. And we plan to improve it later
+		    
 
         <button type="button" onclick="$.pjax({url: '/titles/new', container: '#main-body'});" class="symbol button create-button" style="padding: 14px 60px;">
             <span class="favorite-button-text">Create Community</span>
