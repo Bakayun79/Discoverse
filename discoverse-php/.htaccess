@@ -1,0 +1,7 @@
+php_value display_errors 1
+php_value date.timezone "America/New_York"
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
