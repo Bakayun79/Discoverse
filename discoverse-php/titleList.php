@@ -2,7 +2,7 @@
 require_once('lib/htm.php');
 require_once('lib/connect.php');
 
-$tabTitle = 'Discoverse - Community List';
+$tabTitle = 'Discosuck - Community List';
 
     printHeader(3);
 ?>
@@ -21,14 +21,16 @@ $tabTitle = 'Discoverse - Community List';
                 <span class="title">Get the latest news here!</span>
                 <span class="text">Posts from Verified Users</span>
             </a>
-        </div
-        <div class="post-list-outline" style="text-align: center">
-            <h2 class="label">What is Discoverse ?</h2>
-            <p style="width: 90%; display: inine-block; padding: 10px;">Discoverse is a Miiverse clone created by Bakayun. Haruki it's the co-owner now.</p>
         </div>
-	    <h2 class="label">Discoverse is dead no ? More, Extraverse is better recreate Extraverse !
-		    <p style="width: 90%; display: inine-block; padding: 10px;">I'm sorry but Discoverse is funny lol. And we plan to improve it later
-		    
+        <div class="post-list-outline" style="text-align: center">
+            <h2 class="label">Welcome to Discoverse/Discosuck !</h2>
+            <p style="width: 90%; display: inine-block; padding: 10px;">Discosuck (real name Discoverse) it's a Miiverse clone created by Bakayun with help of Haruki (CSS) Rixy and Term for fix the signup. It's an opensource: https://github.com/Bakayun79/Discoverse-php</p>
+            <h2 class="label">Why create that now ???</h2>
+            <p style="width: 90% display: init-block; padding: 10px;">Idk. I wanted to</p>
+            <h2 class="label">It's finish ?</h2>
+            <p style="width: 90% display: init-block; padding: 10px;">Not really for now. We plan to improve it by adding mp and other features
+
+        </div>
 
         <button type="button" onclick="$.pjax({url: '/titles/new', container: '#main-body'});" class="symbol button create-button" style="padding: 14px 60px;">
             <span class="favorite-button-text">Create Community</span>
@@ -128,3 +130,4 @@ echo '
 
 ?>
 </div>
+
