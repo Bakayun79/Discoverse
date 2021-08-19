@@ -2,7 +2,7 @@
 require_once('lib/htm.php');
 require_once('lib/connect.php');
 
-$tabTitle = 'Cedar - Community List';
+$tabTitle = 'Discoverse - Community List';
 
     printHeader(3);
 ?>
@@ -16,7 +16,7 @@ $tabTitle = 'Cedar - Community List';
         <div id="identified-user-banner" style="margin-bottom: 10px;">
             <a href="/identified_user_posts" data-pjax="#body" class="list-button us">
                 <span class="icon-container verified" style="width: 50px; margin: 6px 9px 6px 10px; height:  50px;">
-                    <img src="https://mii-secure.cdn.nintendo.net/1aew7lbpmxsnp_happy_face.png" alt="User Page" style="border: 1px solid #ddd;height: 50px;width: 50px;border-radius: 5px;">
+                    <img src="https://mii-secure.cdn.nintendo.net/2qxz5ji4ecctf_happy_face.png" alt="User Page" style="border: 1px solid #ddd;height: 50px;width: 50px;border-radius: 5px;">
                 </span>
                 <span class="title">Get the latest news here!</span>
                 <span class="text">Posts from Verified Users</span>
@@ -24,8 +24,8 @@ $tabTitle = 'Cedar - Community List';
         </div>
         <iframe src="https://discordapp.com/widget?id=406561770359226378&theme=<?php echo (isset($_COOKIE['dark-mode']) ? 'dark' : 'light'); ?>" style="width: inherit;" height="500" allowtransparency="true" frameborder="0"></iframe>
         <div class="post-list-outline" style="text-align: center">
-            <h2 class="label">What is Cedar?</h2>
-            <p style="width: 90%; display: inine-block; padding: 10px;">Cedar is a Miiverse clone written by Seth and Eric. Cedar is open source: https://github.com/EnergeticBark/Cedar-PHP</p>
+            <h2 class="label">What is Discoverse ?</h2>
+            <p style="width: 90%; display: inine-block; padding: 10px;">Discoverse is a Miiverse clone created by Bakayun. Haruki it's the co-owner now.</p>
         </div>
 
         <button type="button" onclick="$.pjax({url: '/titles/new', container: '#main-body'});" class="symbol button create-button" style="padding: 14px 60px;">
