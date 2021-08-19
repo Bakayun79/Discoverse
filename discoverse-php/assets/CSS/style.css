@@ -155,15 +155,15 @@ body {
 }
 
 #global-menu li.selected a {
-    color: #3caa00 !important;
+    color: #6d071 !important;
 }
 
 #global-menu li a:hover, #global-menu li button:hover {
-    box-shadow: inset 0 -4px 0 -1px #5ac800;
+    box-shadow: inset 0 -4px 0 -1px #6d071a;
 }
 
 #global-menu li.selected a:before {
-    color: #5ac800;
+    color: #6d071a;
 }
 
 #global-menu li#global-menu-logo a:hover {
@@ -295,7 +295,7 @@ body {
     line-height: 18px;
     width: 22px;
     text-align: center;
-    color: #5ac800;
+    color: #6d071;
     position: absolute;
     top: 50%;
     margin-top: -9px;
@@ -671,7 +671,7 @@ input, label, button {
 
 div#activity-feed-tutorial {
     background-color: #fff;
-    border: 3px solid #5ac800;
+    border: 3px solid #6d071;
     border-radius: 10px;
     height: auto;
     padding: 25px 14px 15px;
@@ -695,7 +695,7 @@ div#activity-feed-tutorial img.tutorial-image {
 div#activity-feed-tutorial h3 {
     text-align: left;
     clear: both;
-    color: #5ac800;
+    color: #6d071a;
     font-size: 14px;
     border-bottom: 1px dashed #ddd;
     padding: 15px 0 3px;
@@ -1188,7 +1188,7 @@ button {
 }
 
 .news-list a.link {
-    color: #3caa00;
+    color: #6d071a;
 }
 
 .news-list .timestamp, .news-list .id-name {
@@ -1219,7 +1219,7 @@ button {
 }
 
 #post-meta .yeah-added + .nah + .empathy:before, .reply-meta .yeah-added + .nah + .empathy:before {
-    color: #5ac800;
+    color: #6d071a;
 }
 
 .yeah {
@@ -1260,7 +1260,7 @@ button {
 }
 
 #post-meta .yeah-added + .nah + .empathy, .reply-meta .yeah-added + .nah + .empathy {
-    color: #3caa00;
+    color: #6d071a;
 }
 
 #yeah-content {
@@ -1569,7 +1569,7 @@ button {
 
 .sidebar-setting .sidebar-menu-post:before {
     content: "p";
-    color: #5ac800;
+    color: #6d071a;
 }
 
 .sidebar-setting a:before {
@@ -1626,12 +1626,12 @@ button {
 
 .sidebar-setting .sidebar-menu-empathies:before {
     content: "e";
-    color: #5ac800;
+    color: #6d071a;
 }
 
 .sidebar-setting .sidebar-menu-nahs:before {
     content: "U";
-    color: #5ac800;
+    color: #6d071a;
 }
 
 .test-identified-post-list .post .community-container a:hover {
@@ -1679,9 +1679,9 @@ button {
     word-wrap: normal;
     height: 34px;
     padding: 0 10px;
-    border-top: 1px solid #81e52e;
-    border-bottom: 1px solid #3caa00;
-    background: #5ac800;
+    border-top: 1px solid #6d071a;
+    border-bottom: 1px solid #6d071a;
+    background: #6d071a;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -2096,9 +2096,9 @@ select {
 
 h2.reply-label {
     clear: both;
-    background: #5ac800;
+    background: #6d071a;
     color: #FFF;
-    border-top: 1px solid #4faf00;
+    border-top: 1px solid #6d071a;
     padding: 3px 10px 1px;
 }
 
@@ -2171,13 +2171,13 @@ h2.reply-label {
 .tab2 a.selected, .tab3 a.selected {
     color: #FFF;
     background: url(/assets/img/green-button-bg.gif) repeat-x 0 bottom #81e52e;
-    background-color: #81e52e;
-    background: -webkit-gradient(linear, left top, left bottom, from(#81e52e), to(#5ac800));
-    background: -webkit-linear-gradient(top, #81e52e #5ac800);
-    background: -moz-linear-gradient(top, #81e52e #5ac800);
-    background: -ms-linear-gradient(top, #81e52e #5ac800);
-    background: -o-linear-gradient(top, #81e52e #5ac800);
-    background: linear-gradient(top, #81e52e #5ac800);
+    background-color: #6d071a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#81e52e), to(#6d071a));
+    background: -webkit-linear-gradient(top, #81e52e #6d071a);
+    background: -moz-linear-gradient(top, #81e52e #6d071a);
+    background: -ms-linear-gradient(top, #81e52e #6d071a);
+    background: -o-linear-gradient(top, #81e52e #6d071a);
+    background: linear-gradient(top, #81e52e #6d071a);
 }
 
 /* Yeah I know it's called tab2 but its being used for 3 things now fuck off. */
@@ -2467,7 +2467,7 @@ h2.reply-label {
 
 .sidebar-setting .sidebar-menu-replies:before {
     content: "r";
-    color: #5ac800;
+    color: #6d071a;
 }
 
 .post-link {
@@ -2484,7 +2484,7 @@ form.search input[type="text"]:focus {
 
 .news-community-badge {
     display: inline-block;
-    background: #5ac800;
+    background: #6d071a;
     font-size: 10px;
     color: #FFF;
     margin-left: 10px;
@@ -2579,12 +2579,12 @@ form.search input[type="text"]:focus {
 
 .sidebar-setting .sidebar-menu-info:before {
 	content: "w";
-	color: #5ac800;
+	color: #6d071a;
 }
 
 .sidebar-setting .sidebar-menu-setting:before {
     content: "Y";
-    color: #5ac800;
+    color: #6d071a;
 }
 
 .sidebar-setting li {
@@ -2697,7 +2697,7 @@ form.search input[type="text"]:focus {
   vertical-align: bottom;
 }
 .user-data h4 span {
-  background-color: #5ac800;
+  background-color: #6d071a;
   padding: 2px 12px 1px;
   display: block;
   white-space: nowrap;
@@ -2744,7 +2744,7 @@ form.search input[type="text"]:focus {
   margin-right: 5px;
   content: 'o';
   font-size: 18px;
-  color: #5ac803;
+  color: #6d071a;
 }
 .user-data .game-skill .note span.offline:before {
   color: #969696;
@@ -2901,7 +2901,7 @@ form.search input[type="text"]:focus {
 }
 
 #image-header-content .image-header-title .title {
-    color: #5ac800;
+    color: #6d071a;
     font-size: 18px;
     margin: 0 0 10px 20px;
     line-height: 1.3em;
@@ -2927,7 +2927,7 @@ form.search input[type="text"]:focus {
     font-size: 16px;
     font-weight: bold;
     display: block;
-    color: #5ac800;
+    color: #6d071a;
     padding: 12px 5px 4px 68px;
     line-height: 1.3em;
 }
@@ -2953,7 +2953,7 @@ form.search input[type="text"]:focus {
     font-size: 20px;
     margin: -2px 5px 0 0;
     line-height: 11px;
-    color: #5ac800;
+    color: #6d071a;
     display: inline-block;
     vertical-align: middle;
 }
@@ -3062,7 +3062,7 @@ form.search input[type="submit"] {
 .user-organization {
     display: block;
     font-size: 12px;
-    color: #5ac800;
+    color: #6d071a;
     font-style: italic;
 }
 
@@ -3080,7 +3080,7 @@ form.search input[type="submit"] {
 }
 
 .user-sidebar .friend-button:before {
-    color: #5ac800;
+    color: #6d071a;
     font-size: 15px;
     content: "F";
 }
@@ -3190,17 +3190,17 @@ form.search input[type="submit"] {
 }
 
 .list .toggle-button .follow-button:before {
-    color: #5ac800;
+    color: #6d071a;
     content: "Q";
 }
 
 .list .toggle-button .follow-done-button:before {
-    color: #5ac800;
+    color: #6d071a;
     content: "v";
 }
 
 .user-sidebar .follow-button:before {
-    color: #5ac800;
+    color: #6d071a;
     font-size: 13px;
     content: "Q";
 }
@@ -3255,8 +3255,8 @@ form.search input[type="submit"] {
 }
 
 h2.label {
-    border-bottom: 3px solid #5ac800;
-    color: #5ac800;
+    border-bottom: 3px solid #6d071a;
+    color: #6d071a;
     font-weight: normal;
     font-size: 16px;
     padding: 17px 15px 10px;
@@ -3436,7 +3436,7 @@ li {
 }
 
 #global-menu li.selected a {
-    border-bottom: 2px solid #5ac800;
+    border-bottom: 2px solid #6d071a;
 }
 
 #global-menu #global-menu-list > ul > li > a:before {
